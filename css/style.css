@@ -1,0 +1,75 @@
+.col-md-3 {
+  display: inline-block;
+  margin-left: -4px;
+}
+.carousel-indicators .active {
+  background-color: blue;
+}
+.col-md-3 img {
+  width: 100%;
+  height: auto;
+}
+body .carousel-indicator li {
+  background-color: blue;
+}
+body .carousel-indicators {
+  bottom: 0;
+}
+/* body .carousel-control-prev-icon,
+      body .carousel-control-next-icon{
+      background-color: blue;
+      } */
+body .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid grey;
+}
+
+.image-size {
+  height: 200px;
+}
+h6 {
+  font-size: 14.5px;
+}
+
+/* other css */
+.title-box {
+  background: orange;
+  color: #fff;
+  width: 180px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.title-box h3 {
+  font-size: 24px;
+}
+
+.title-box::after {
+  content: "";
+  border-top: 40px solid orange;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 170px;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-inline {
+  display: inline;
+}
